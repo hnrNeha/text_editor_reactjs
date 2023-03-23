@@ -1,0 +1,49 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: large;
+  font-family: "Roboto Slab", serif;
+  
+}
+
+.header {
+  text-align: center;
+  color: rgb(32, 71, 226);
+  height: 55px;
+  padding: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  z-index: 10;
+}
+.header p {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.RichTextEditor {
+  margin: 20px;
+}
+.html-p {
+  text-align: center;
+  margin-top: 50px;
+  text-decoration: underline;
+}
+.htmlForm {
+  border: 2px solid rgb(100, 198, 185);
+  margin: 20px;
+  padding: 5%;
+}
+
+/* hide jodit powered by */
+.jodit-status-bar-link {
+  visibility: hidden;
+}
+
+@media (max-width: 720px) {
+  .header p {
+    font-size: 23px;
+    margin: 15px;
+  }
+}
